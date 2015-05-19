@@ -1,0 +1,46 @@
+html {
+  height: 1024px;
+  width: 1024px;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.left {
+  height: 100%;
+  width: 33.33333%;
+  background-color: #4a90e2;
+  float:left;
+}
+
+.center {
+  height: 100%;
+  width: 33.33333%;
+  background-color: #50e3c2;
+  float: left;
+}
+
+.right {
+  height: 80%;
+  width: 33.33333%;
+  background-color: #B8e986;
+  float: left;
+}
+
+.pic {
+  height: 20%;
+  width: 33.33333%;
+  background-color: #D0021B;
+  float: right;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
